@@ -35,7 +35,11 @@ func Equal(t TestingT, expected, actual interface{}, msgAndArgs ...interface{}) 
 	assert.Equal(t, expected, actual, msgAndArgs...)
 }
 
-func NoError(t TestingT, err error, msgAndArgs ...interface{}) {
+
+func 
+
+
+NoError(t TestingT, err error, msgAndArgs ...interface{}) {
 	assert.NoError(t, err, msgAndArgs...)
 }
 
